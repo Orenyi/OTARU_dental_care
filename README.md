@@ -1,16 +1,53 @@
-# React + Vite
+## **🦷 OTARU Dental Care Website**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern dental clinic website built with Vite + React + TailwindCSS, featuring:
 
-Currently, two official plugins are available:
+. Smooth animations
+ 
+. Online appointment booking
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+. EmailJS integration
 
-## React Compiler
+. Google Map location
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+. Dental service information
 
-## Expanding the ESLint configuration
+. Responsive layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+. Online Appointment Booking Form
+
+. Email Notifications using EmailJS
+
+. Embedded Google Map for location
+
+. Modern UI/UX with TailwindCSS
+
+. Fully responsive across devices
+
+## 🛠️ Tech Stack
+
+. React (Vite)
+
+. Tailwind CSS
+
+. GSAP (smooth animations)
+
+. EmailJS
+
+. React DatePicker
+
+## 📝 Challenges I Faced
+
+**React DatePicker formatting** 
+
+I had issues with icons overlapping the input field and the datepicker not filling the full width, so I used custom CSS overrides.
+
+**Embedding Google Maps**
+
+The Google Maps API version required payment, so I switched to the free Maps Embed approach.
+
+## 🚀 Future Improvements
+
+Add admin dashboard for viewing appointments
